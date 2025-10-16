@@ -1,0 +1,26 @@
+.card{
+    width: 300px;
+    border: 1px solid red;
+    margin: 20px 10px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.card-title{
+    text-transform: capitalize;
+    font-size: 1.6rem;
+}
+.card-img{
+    width: 200px;
+    height: 100px;
+    border-radius: 12px;
+}
+.card-description{
+    font-size: .9rem;
+    color: blue;
+    font-family: sans-serif;
+}
