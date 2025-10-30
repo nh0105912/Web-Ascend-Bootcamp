@@ -5,7 +5,7 @@ function App() {
   // const [user ,setuser] = useState("hello from Great Grant child")
   return (
     <>
-    <Context.provider v>
+    <Context.provider value="">
       <child/>
     </Context.provider>
     
